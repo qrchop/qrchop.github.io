@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QR Chop</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="jquery.js"></script>
+	<link rel="stylesheet" href="mobile.css">
+	<script src="mobile.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="testpage">
+
+	<div data-role="header">
+		<h1>QR Chop</h1>
+    		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-back ui-btn-icon-left ui-btn-icon-notext">Back</a>
+	</div>
+
+	<div class="ui-content" role="main">
+
+		<a href="#panel-push" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-mini ui-btn-icon-left ui-icon-bars">Push</a>
+
+	</div>
+
+	<div data-role="panel" id="panel-push" data-display="push">
+		<ul data-role="listview">
+			<li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+			<li data-icon="home"><a href="about.html" data-rel="dialog" data-transition="flip">About QR Chop</a></li>
+			<li data-icon="location"><a href="location.html" data-rel="dialog" data-transition="flip">Locate our Shop</a></li>
+		</ul>
+	</div>
+
+</div>
+
+</body>
+</html>
