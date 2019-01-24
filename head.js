@@ -1,0 +1,1 @@
+document.write('<title>QR Chop</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><script src="ticker.js"></script><script src="jquery.js"></script><link rel="stylesheet" href="mobile.css"><script src="mobile.js"></script><script src="page.js"></script><link rel="stylesheet" href="frame.css">');
