@@ -1,4 +1,4 @@
-document.write('<div data-role="page" id="testpage"><div data-role="header"><h1>QR Chop</h1>');
+document.write('<div data-role="page" id="testpage"><div data-role="header"><h1>QRchop</h1>');
 document.write('<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-back ui-btn-icon-left ui-btn-icon-notext">Back</a></div><div class="ui-content" role="main">');
 document.write('<a href="#panel-push" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-mini ui-btn-icon-left ui-icon-bars">Push</a><form class="ui-mini">');
 document.write('<div class="ui-field-contain" id="theme-selector">');
