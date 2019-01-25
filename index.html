@@ -1,48 +1,24 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<title>QR Chop</title>
 	<meta charset="utf-8">
-	<script src="jquery.js"></script>
+	<script src="jquery.min.js"></script>
 	<link rel="stylesheet" href="mobile.css">
 	<script src="mobile.js"></script>
-	<script src="page.js"></script>
+	<script src="loader.js"></script>
 </head>
 
 <body>
 
-<div data-role="page" id="testpage">
-
-	<div data-role="header">
-		<h1>QR Chop</h1>
-    		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-back ui-btn-icon-left ui-btn-icon-notext">Back</a>
-	</div>
-
-	<div class="ui-content" role="main">
-
-		<a href="#panel-push" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-mini ui-btn-icon-left ui-icon-bars">Push</a>
-
-        <form class="ui-mini">
-			<div class="ui-field-contain" id="theme-selector">
-				<fieldset data-role="controlgroup" data-type="horizontal">
-					<label for="a">Light</label>
-					<input type="radio" name="theme" id="a" checked>
-					<label for="b">Black</label>
-					<input type="radio" name="theme" id="b">
-				</fieldset>
-			</div>
-	</form>
-
-	</div>
-
-	<div data-role="panel" id="panel-push" data-display="push">
-		<ul data-role="listview">
-			<li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
-			<li data-icon="edit"><a href="work.html" target="_self">Design my Chop</a></li>
-		</ul>
-	</div>
-
-</div>
+<table align="center">
+<tr><td><h1>Welcome to QRchop.com!</h1></td><tr>
+<tr><td><h3>We are here to help you to make your first QR Chop.</h3></td><tr>
+<tr><td>歡迎光臨二維碼印章製作室(猩猩店長致意)</td><tr>
+<tr><td>You could press the button below to use our Online production studio.</td><tr>
+<tr><td><a href="work.html" target="_self"><button class="show-page-loading-msg" data-textonly="true" data-textvisible="true" data-msgtext="Loading..." data-inline="true">QR code Making Tool</button></a></td></tr>
+<tr><td align="center"><font size=1>&copy; 2019 QRchop.com</font></td><tr>
+</table>
 
 </body>
 </html>
